@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "DOC-Q",
+    "slug": "test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIViewControllerBasedStatusBarAppearance": false
+      },
+      "bundleIdentifier": "com.ksshreyas482.test"
+    },
+    "android": {
+      "permissions": [
+        "INTERNET"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ksshreyas482.test"
+    },
+    "icon": "./assets/DOC-Q_Final_Logo.png",
+    "extra": {
+      "eas": {
+        "projectId": "2406dc3c-9ac1-4035-af47-9be0e2ee16e9"
+      }
+    }
+  }
+}
